@@ -1,0 +1,231 @@
+@media (max-width:767px) { /* smartphones and tablets -- min = 0 */
+/**Start Home Page**/
+.hamburger {
+      width: 38px;
+    height: 38px;
+    background: #dadada;
+    border-radius: 0px;
+    border: none;
+    position: relative;
+    top: -10px;
+    z-index: 0;
+    float: right;
+    padding-left: 8px;
+    padding-right: 8px;
+    -webkit-transition: background-color .2s linear;
+    -ms-transition: background-color .2s linear;
+    transition: background-color .2s linear;
+    display: block;
+    margin-top: 45px;
+    border: none;
+    cursor: pointer;
+    margin-left: 10px;
+    padding-top: 5px;
+}
+.hamburger span {
+	width: 23px;
+    height: 2px;
+    border-radius: 10px;
+    opacity: 0.7;
+    margin: auto;
+    background-color: #929292;
+    display: block;
+    margin-bottom: 5px;
+    -webkit-transition: all 0.4s ease;
+    -moz-transition: all 0.4s ease;
+    -ms-transition: all 0.4s ease;
+    -o-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+}
+.logo {
+    margin-top: 8px;
+    width: 100%;
+}
+.menu-mobile{
+  position: fixed;
+  right: 0px;
+  top: 0px;
+  bottom: 0;
+  height: 100%;
+  width: 250px;
+  background: #fff;
+  z-index: 1001;
+  padding-top:0px;
+  overflow-y:auto; 
+  -webkit-transform:translateX(265px);
+  -moz-transform:translateX(265px);
+  -ms-transform:translateX(265px);
+  -o-transform:translateX(265px);
+  transform:translateX(265px);
+  -webkit-transition: -webkit-transform .4s ease;
+  transition: -webkit-transform .4s ease;
+  transition: transform .4s ease;
+  transition: transform .4s ease,-webkit-transform .4s ease;
+  -webkit-box-shadow: -2px 0 20px 0 rgba(33, 23, 23, 0.68);
+  box-shadow: -2px 0 20px 0 rgba(33, 23, 23, 0.68);
+}
+.mmenu > ul li a {
+    display: block;
+    border-bottom:1px solid #eee;
+    color: #018ca3;
+    font-size: 16px;
+    padding: 10px;
+    transition: all .3s;
+    font-weight: bold;
+}
+.close_menu{
+  position: absolute;
+  top: 0;
+  left: 0px;
+  font-size: 24px;
+  cursor: pointer;
+  color: #fff;
+  width: 35px;
+  height: 35px;
+  text-align: center;
+  line-height: 35px;
+  background-color: #fff;
+  -webkit-transition: all 0.4s ease;
+  -moz-transition: all 0.4s ease;
+  -ms-transition: all 0.4s ease;
+  -o-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+}
+.close_menu:hover{
+  background-color: #f4861c;
+  color: #fff;
+}
+.mobile {
+    color: #fff;
+    position: relative;
+    top: 12px;
+    font-size: 16px;
+    display: none;
+}
+.email {
+    color: #fff;
+    position: relative;
+    top: 12px;
+    font-size: 17px;
+    display: none;
+}
+.listitemsecandarynav-social {
+    float: left;
+    margin: 4px;
+    margin-top: 13px;
+    font-size: 14px;
+	display:none;
+    color: #393D40;
+}
+#testimonials-slider {
+    width: 100%;
+    margin: auto;
+}
+.img-services {
+    width: 100%;
+    height: 150px;
+    border-radius: 10px;
+}
+.img-doctor-home {
+    width: 100%;
+    height: 200px;
+    border-radius: 5px;
+}
+.col-contact {
+    text-align: center;
+}
+.inputs-in-contact {
+    width: 100%;
+    float: none;
+}
+.img-footer {
+    margin-bottom: 5px;
+}
+.img-popup {
+    width: 100%;
+    height: 50px;
+    border-radius: 50%;
+}
+.name-pop-up{
+	margin-top:0px;
+	font-size:14px;
+}
+}
+
+@media(min-width:768px) and (max-width:991px){ /* Small screen - from 768 */
+.logo {
+    margin-top: 20px;
+    width: 100%;
+    height: 60px;
+}
+
+.btn_login {
+    background: #707070;
+    padding: 10px;
+    color: #fff;
+    text-decoration: none;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 5px;
+    margin-left: 0;
+    margin-top: 10px;
+    font-weight: bold;
+}
+.listitemsecandarynav {
+    float: left;
+    margin: 5px;
+    font-size: 14px;
+    color: #909090;
+    position: relative;
+    top: 15px;
+    margin-left: 5px;
+}
+.listitemsecandarynav1 {
+    float: left;
+    margin: 5px;
+    font-size: 14px;
+    color: #909090;
+    font-weight: bold;
+    position: relative;
+    top: 15px;
+}
+}
+
+@media(min-width:992px) and (max-width:1199px){ /* Medium Screen */
+.btn_login {
+    background: #707070;
+    padding: 10px;
+    color: #fff;
+    text-decoration: none;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 5px;
+    margin-left: 0;
+    margin-top: 10px;
+    font-weight: bold;
+}
+.listitemsecandarynav {
+    float: left;
+    margin: 7px;
+    font-size: 15px;
+    color: #909090;
+    position: relative;
+    top: 15px;
+    margin-left: 5px;
+}
+.listitemsecandarynav1 {
+    float: left;
+    margin: 7px;
+    font-size: 15px;
+    color: #909090;
+    font-weight: bold;
+    position: relative;
+    top: 15px;
+}
+
+}
+
+@media(min-width:1200px){ /* large screen - from 1200 to higher */
+
+    
+}
